@@ -15,7 +15,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMotionUsageDescription": "Your app uses motion data to track your steps and activity."
+      }
     },
     "android": {
       "adaptiveIcon": {
